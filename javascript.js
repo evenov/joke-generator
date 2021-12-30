@@ -117,8 +117,11 @@ let array=[
 "Mountains aren't just funny. They're hill areas.",
 ];
 
-let random = Math.floor(Math.random() * (array.length));
 
 function myFunction() {
-    document.getElementById('quote-display').innerHTML = array[random];
+    // let random = Math.floor(Math.random() * (array.length));
+    for (var i = 0; i< array.length; i++) {
+    document.getElementById('quote-display').innerHTML = array[i];
 }
+};
+
