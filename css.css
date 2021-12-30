@@ -1,0 +1,36 @@
+button {
+    border-radius: 50%;
+    width: 150;
+    height: 150;
+    background-color: red;
+    font-weight:bold;
+    font-size: 2em;
+    border-style: solid;
+    border-color: black;
+}
+
+html{
+    background-color: chocolate;
+    text-align: center;
+}
+
+#buttom-div {display: flex;
+    justify-content: center;
+}
+
+#header-div{
+    padding:35px;
+}
+
+header {
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+
+#quote-display {
+    padding: 30px;
+    font-size:1.7em;
+    font-family: cursive;
+    font-style:oblique
+
+}
