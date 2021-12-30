@@ -1,1 +1,1 @@
-Random dad joke generato
+Random dad joke generator
