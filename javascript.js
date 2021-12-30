@@ -119,9 +119,9 @@ let array=[
 
 
 function myFunction() {
-    // let random = Math.floor(Math.random() * (array.length));
-    for (var i = 0; i< array.length; i++) {
-    document.getElementById('quote-display').innerHTML = array[i];
-}
+    let random = Math.floor(Math.random() * (array.length));
+    //for (var i = 0; i< array.length; i++) {}
+    document.getElementById('quote-display').innerHTML = array[random];
+
 };
 
